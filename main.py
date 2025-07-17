@@ -41,9 +41,14 @@ if play_game == 'Y':
         print_board(board=board)
 
         try:
-            move = int(input(f'Where would you like to place {current_player}? Choose 1-9 : ')) - 1
+            move = int(input(f'Player {current_player}, can you choose a cell? Choose 1-9 : ')) - 1
             board[move] = current_player
             move_count += 1
+
+            # Needs to add current_player = 'O'
+            # and let them take turns
+            # check if the user wins
+            # or draw
 
         except (ValueError, IndexError):
             print("Warning: Invalid input. Please choose a number from 1 - 9.")
