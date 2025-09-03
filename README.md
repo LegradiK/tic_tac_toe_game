@@ -1,6 +1,7 @@
 # 🎮 Tic Tac Toe Game (Python)
 
 This is a simple terminal-based Tic Tac Toe game for two players, built with Python.
+
 ! This is a part of Portfolio Projects with Python Scripting. !
 
 ## 🕹️ How to Play
