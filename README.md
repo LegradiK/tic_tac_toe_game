@@ -22,7 +22,7 @@ Win and draw detection
 Clean terminal UI
 
 ## 🚀 Getting Started
-Run the game in a Python terminal:
+Run the game in terminal:
 
 python3 main.py
 
